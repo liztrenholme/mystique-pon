@@ -22,11 +22,16 @@
   font-size: large;
 } */
 
+h4 {
+  font-family: 'Sail', cursive;
+}
+
 .display {
   margin-top: 10%;
   align-items: center;
   height: 30em;
   color: black;
+  background-color: #f2f2f2;
 }
 
 /* @keyframes App-logo-spin {
