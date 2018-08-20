@@ -1,25 +1,5 @@
-.App {
+/* .App {
   text-align: center;
-}
-/* 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
 } */
 
 h4 {
@@ -34,7 +14,50 @@ h4 {
   background-color: #f2f2f2;
 }
 
+textarea {
+  /* margin: 0 0 0 10px; */
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+}
+
+.select {
+  width: 10%;
+  margin: 0 -10 0 10%;
+}
+
+.text-input, label {
+  /* text-align: left; */
+  width: 90%;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+}
+
+label {
+  margin-bottom: -1%;
+}
+
+textarea, .text-input {
+  margin-bottom: 4%;
+}
+
+.survey-question {
+  margin: 3% 0 -1% 0;
+}
+
+/* input:valid, */
+input:focus,
+/* textarea:valid, */
+textarea:focus {
+  border-bottom: 2px solid #4e899c;  
+}
+
 /* @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 } */
+
+@media (max-width: 767.98px) {
+  .display {
+    margin: 20% 10%;
+  }
+}
