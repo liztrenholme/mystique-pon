@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import Playing from '../images/playing.JPG';
 
 class Main extends Component {
 
@@ -8,7 +9,9 @@ class Main extends Component {
   render() {
     return (
       <div className="Main">
-        <p>Main!</p>
+        <div className="welcome">
+          <img src={Playing} alt="playing puppy" width="50%" />
+        </div>
       </div>
     );
   }
