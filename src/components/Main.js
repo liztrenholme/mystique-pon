@@ -10,7 +10,7 @@ class Main extends Component {
     return (
       <div className="Main">
         <div className="welcome">
-          <img src={Playing} alt="playing puppy" width="50%" />
+          <img src={Playing} alt="playing puppy" height="500px" className="playing-image" />
         </div>
       </div>
     );

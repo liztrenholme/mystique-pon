@@ -3,15 +3,31 @@
 } */
 
 h4 {
-  font-family: 'Sail', cursive;
+  font-family: 'Elsie', cursive;
+
+}
+
+.nav-link {
+  font-family: 'Varela Round', sans-serif;
 }
 
 .display {
-  margin-top: 10%;
+  margin-top: 7%;
   align-items: center;
   /* height: 30em; */
   color: black;
   background-color: #f2f2f2;
+}
+
+.welcome {
+  align-content: center;
+}
+
+.playing-image {
+  margin: 1% 15%;
+  border: 10px solid #fff;
+  border-radius: 20px;
+  opacity: .8;
 }
 
 textarea {
@@ -34,6 +50,7 @@ textarea {
 
 label {
   margin-bottom: -1%;
+  font-family: 'Varela Round', sans-serif;
 }
 
 textarea, .text-input {
@@ -42,8 +59,10 @@ textarea, .text-input {
 
 .survey-question {
   margin: 3% 0 -1% 0;
+  font-family: 'Varela Round', sans-serif;
 }
 
+.select:focus
 /* input:valid, */
 input:focus,
 /* textarea:valid, */
