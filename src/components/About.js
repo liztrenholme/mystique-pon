@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import GreenToy from '../images/green-toy.JPG';
 
 class About extends Component {
 
@@ -9,6 +10,8 @@ class About extends Component {
     return (
       <div className="About">
         <p>About!</p>
+        <p> This paragraph will be about all tha is involved with puppies! </p>
+        <img src={GreenToy} alt="green toy" height="80%" className="green-toy" />
       </div>
     );
   }

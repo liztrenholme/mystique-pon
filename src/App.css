@@ -23,7 +23,7 @@ h4 {
   align-content: center;
 }
 
-.playing-image {
+.playing-image, .green-toy {
   margin: 1% 15%;
   border: 10px solid #fff;
   border-radius: 20px;
