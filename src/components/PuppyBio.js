@@ -1,19 +1,18 @@
 import React, { Component } from 'react';
-import PuppyBio from './PuppyBio';
 import '../App.css';
+//import Playing from '../images/playing.JPG';
 
-class Puppies extends Component {
+class PuppyBio extends Component {
 
   // need an if/else to decide whether to render 
   // stove or oven depending on chosen ingredient for game
   render() {
     return (
-      <div className="Puppies">
-        <p>Puppies!</p>
-        <PuppyBio />
+      <div className="PuppyBio">
+        <p>A component to render with info on each puppy passed down to it!</p>
       </div>
     );
   }
 }
 
-export default Puppies;
+export default PuppyBio;
