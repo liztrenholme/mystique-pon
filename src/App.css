@@ -57,7 +57,7 @@ textarea, .text-input {
   margin-bottom: 4%;
 }
 
-.survey-question {
+.survey-question, p {
   margin: 3% 0 -1% 0;
   font-family: 'Varela Round', sans-serif;
 }
@@ -79,4 +79,9 @@ textarea:focus {
   .display {
     margin: 20% 10%;
   }
+
+  img {
+    width: 50%;
+  }
+
 }
