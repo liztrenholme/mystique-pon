@@ -3,9 +3,9 @@ import PuppyBio from './PuppyBio';
 import '../App.css';
 
 class Puppies extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   // need an if/else to decide whether to render 
   // stove or oven depending on chosen ingredient for game
   render() {
