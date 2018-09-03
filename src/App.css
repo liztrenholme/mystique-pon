@@ -30,6 +30,16 @@ h4 {
   opacity: .8;
 }
 
+.puppy-name {
+  font-weight: bold;
+  font-size: 110%;
+  font-family: 'Varela Round', sans-serif;
+}
+
+form, .puppy-each {
+  margin: 10%;
+}
+
 textarea {
   /* margin: 0 0 0 10px; */
   border: 1px solid #f2f2f2;

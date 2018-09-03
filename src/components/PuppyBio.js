@@ -3,13 +3,17 @@ import '../App.css';
 //import Playing from '../images/playing.JPG';
 
 class PuppyBio extends Component {
-
-  // need an if/else to decide whether to render 
-  // stove or oven depending on chosen ingredient for game
-  render() {
+    constructor(props) {
+        super(props);
+      }
+    // puppyName = <div className="puppy-name" name />;
+   render() {
     return (
       <div className="PuppyBio">
-        <p>A component to render with info on each puppy passed down to it!</p>
+        <div className="puppy-each">
+            <p className="puppy-name">{this.props.name}</p>
+            <p className="puppy-description">{this.props.name} is a {this.props.personality} {this.props.gender} and is {this.props.colors}.</p>
+        </div>
       </div>
     );
   }
