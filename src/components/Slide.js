@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../App.css';
-import Slider from './Slider';
 
-class Slide extends Component {
 
-  // need an if/else to decide whether to render 
-  // stove or oven depending on chosen ingredient for game
-  render() {
-    return (
-      <div className="Slide">
-        <p>Slide!</p>
-        <Slider />
-      </div>
-    );
-  }
-}
+    const Slide = ({ image, i }) => {
+        const slideImage = image[i];
+        return <div className="slide" image={slideImage}></div>
+      }
+//   render() {
+//     return (
+//       <div className="Slide">
+//         <p>Slide!</p>
+//         <Slider />
+//       </div>
+//     );
+//   }
+// }
 
 export default Slide;

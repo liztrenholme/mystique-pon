@@ -36,6 +36,16 @@ h4 {
   font-family: 'Varela Round', sans-serif;
 }
 
+.slider {
+  height: 400px;
+}
+
+.slide {
+  background-size: 'cover';
+  background-repeat: 'no-repeat';
+  background-position: '50% 60%';
+}
+
 form, .puppy-each {
   margin: 10%;
 }
