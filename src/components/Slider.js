@@ -57,7 +57,7 @@ class Slider extends Component {
                     }}>
                     {
                         this.state.images.map((i) => (
-                            <Slide index={i} image={i} />
+                            <Slide index={i} image={i} key={i} />
                         ))
                     }
                 </div>

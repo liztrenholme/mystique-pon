@@ -12,7 +12,7 @@ class Slide extends Component {
         
     }
     render() {
-        return <img className="slide" src={this.props.image} index={this.props.index} />
+        return <img className="slide" src={this.props.image} alt={this.props.index} />
     }
 }
 //   render() {
