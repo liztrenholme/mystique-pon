@@ -56,8 +56,8 @@ class Slider extends Component {
                         transition: 'transform ease-out 0.45s'
                     }}>
                     {
-                        this.state.images.map((image, i) => (
-                            <Slide key={i} image={image} />
+                        this.state.images.map((i) => (
+                            <Slide index={i} image={"Puppy" + i} />
                         ))
                     }
                 </div>

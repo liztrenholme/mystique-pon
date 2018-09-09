@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../App.css';
 
-
-    const Slide = ({ image, i }) => {
-        const slideImage = image[i];
-        return <div className="slide" image={slideImage}></div>
-      }
+class Slide extends Component {
+    constructor(props) {
+        super(props);
+        //  Slide = ({ image, i }) => {
+        // const slideImage = image[i];
+        console.log(this.props.image);
+        console.log(this.props);
+        
+    }
+    render() {
+        return <img className="slide" src={this.props.image} index={this.props.index} />
+    }
+}
 //   render() {
 //     return (
 //       <div className="Slide">

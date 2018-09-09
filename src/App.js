@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+// import {render} from 'react-dom';
+// import {Router, Route} from 'react-router';
 import About from './components/About';
 import Application from './components/Application';
 import Contact from './components/Contact';
@@ -41,6 +43,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      {/* <Router>
+        <Route path={"about"} component={About} />
+        <Route path={"puppies"} component={Puppies} />
+        <Route path={"gallery"} component={Gallery} />
+        <Route path={"contact"} component={Contact} />
+        <Route path={"application"} component={Application} />
+      </Router> */}
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <a className="navbar-brand" id="home">
             <h4>Mystique PON</h4>
