@@ -41,6 +41,7 @@ h4 {
 }
 
 .slide {
+  width: 20%;
   background-size: 'cover';
   background-repeat: 'no-repeat';
   background-position: '50% 60%';
