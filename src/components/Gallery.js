@@ -6,7 +6,6 @@ class Gallery extends Component {
   render() {
     return (
       <div className="Gallery">
-        <p>Gallery!</p>
         <Slider />
       </div>
     );

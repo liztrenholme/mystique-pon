@@ -1,23 +1,48 @@
 
-h4 {
+h4, h6 {
   font-family: 'Elsie', cursive;
-
+  margin-top: -3%;
 }
 
-.nav-link {
+nav {
+  margin-bottom: 3%;
+}
+
+.nav-link, .nav-item {
+  font-family: 'Varela Round', sans-serif;
+  margin: -1% 0;
+}
+
+.nav-item {
   font-family: 'Varela Round', sans-serif;
 }
 
 .display {
-  margin-top: 7%;
+  margin-top: 9%;
   align-items: center;
-  /* height: 30em; */
+  height: auto;
   color: black;
   background-color: #f2f2f2;
 }
 
-.welcome {
+.carousel-inner {
+  border: 10px solid #fff;
+  border-radius: 20px;
+  margin: 2%;
+}
+
+.slider-wrapper {
+  background-color: #f2f2f2;
+  padding: 2%;
+}
+
+.welcome, .Application, .Contact {
   align-content: center;
+  align-items: center;
+}
+
+.btn-secondary {
+  align-self: center;
 }
 
 .playing-image, .green-toy {
@@ -38,10 +63,9 @@ h4 {
 }
 
 .slide {
-  width: 20%;
+  margin: 0 20%;
   background-size: 'cover';
   background-repeat: 'no-repeat';
-  background-position: '50% 60%';
 }
 
 form, .puppy-each {
@@ -90,9 +114,13 @@ textarea:focus {
 
 @media (max-width: 767.98px) {
   .display {
-    margin: 20% 10%;
+    margin: 25% 1%;
   }
-
+  .slide {
+    margin: 0 5%;
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+  }
   img {
     width: 50%;
   }
