@@ -24,7 +24,7 @@ nav {
   align-content: center;
 }
 
-.announcement, .links, .welcome-msg {
+.announcement, .links, .welcome-msg, .card {
   margin-top: 4%;
 }
 
@@ -89,7 +89,7 @@ a:hover {
   align-items: center;
 }
 
-.welcome-msg {
+.welcome-msg, .links {
   padding: 1%;
   border: 10px solid #fff;
   border-radius: 20px;
@@ -194,18 +194,29 @@ textarea:focus {
   .display {
     margin: 25% 1%;
   }
+  .lineup {
+    margin-top: 25%;
+  }
   .slide {
     margin: 0 5%;
     background-size: 'cover';
     background-repeat: 'no-repeat';
   }
-  img {
+  /* img {
     width: 50%;
+    height: 50%;
+  } */
+  .text-input, textarea {
+    width: 100%;
   }
   .card {
     width: 10rem;
     border-radius: 20px;
     margin: 2%;
   }
-
+}
+@media (min-width:1100), (max-width: 1175.98px) {
+  .display {
+    margin: 10% 1%;
+  }
 }

@@ -11,7 +11,7 @@ class Contact extends Component {
               <div className="col-md-1">
               </div>
               <div className="col-md-6">
-                <p className="hear">Send us a question or comment!</p>
+                <p className="hear">Send us a general question or comment here.  If you are interested in one of our puppies, please fill out the application.</p>
                 <form action="https://formspree.io/isabellemajerus54@gmail.com" method="POST">
                   <input className="text-input" required type="text" name="first_name" placeholder="First name" />
                   <input className="text-input" type="text" name="last_name" placeholder="Last name" />

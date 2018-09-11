@@ -44,7 +44,7 @@ class Main extends Component {
               <div className="announcement">
                 <div className="col-md-3">
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 announce-msg">
                   <h4>Announcing...</h4>
                   <p>We are pleased to announce the birth of Simon and Layla's puppies born (date)!  The puppies' parents have been tested for PRA, hip dysplaxia, CERF and are CHIC certified.</p>
                 </div>
