@@ -5,6 +5,9 @@ import Puppy2 from '../images/puppy2.JPG';
 import Puppy3 from '../images/puppy3.JPG';
 import Puppy4 from '../images/puppy4.JPG';
 import Puppy5 from '../images/puppy5.JPG';
+import SittingSweetly from '../images/sitting-sweetly.PNG';
+import Playing from '../images/playing.JPG';
+import Headshot from '../images/headshot.JPG';
 
 class Slider extends Component {
     render() {
@@ -17,16 +20,25 @@ class Slider extends Component {
                                 <img className="d-block w-100" src={Puppy1} alt="puppy1" />
                             </div>
                             <div className="carousel-item">
+                                <img className="d-block w-100" src={SittingSweetly} alt="puppy5" />
+                            </div>
+                            <div className="carousel-item">
                                 <img className="d-block w-100" src={Puppy2} alt="puppy2" />
                             </div>
                             <div className="carousel-item">
                                 <img className="d-block w-100" src={Puppy3} alt="puppy3" />
                             </div>
                             <div className="carousel-item">
+                                <img className="d-block w-100" src={Playing} alt="puppy5" />
+                            </div>
+                            <div className="carousel-item">
                                 <img className="d-block w-100" src={Puppy4} alt="puppy4" />
                             </div>
                             <div className="carousel-item">
                                 <img className="d-block w-100" src={Puppy5} alt="puppy5" />
+                            </div>
+                            <div className="carousel-item">
+                                <img className="d-block w-100" src={Headshot} alt="headshot" />
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
