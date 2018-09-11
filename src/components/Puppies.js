@@ -3,32 +3,27 @@ import PuppyBio from './PuppyBio';
 import '../App.css';
 
 class Puppies extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-  // need an if/else to decide whether to render 
-  // stove or oven depending on chosen ingredient for game
   render() {
-    const jude = {
-      name: "Jude",
+    const Puppy1 = {
+      name: "Puppy1",
       colors: "brown and white",
       gender: "male",
       personality: "sweet and cuddly"
     }
-    const sarah = {
-      name: "Sarah",
+    const Puppy2 = {
+      name: "Puppy2",
       colors: "brown and white",
       gender: "female",
       personality: "curious"
     }
-    const marvin = {
-      name: "Marvin",
+    const Puppy3 = {
+      name: "Puppy3",
       colors: "black and white",
       gender: "male",
       personality: "wild"
     }
-    const molly = {
-      name: "Molly",
+    const Puppy4 = {
+      name: "Puppy4",
       colors: "black and white",
       gender: "female",
       personality: "spunky"
@@ -36,22 +31,22 @@ class Puppies extends Component {
     return (
       <div className="Puppies">
         <p>Puppies!</p>
-        <PuppyBio name={jude.name} 
-                  colors={jude.colors} 
-                  gender={jude.gender} 
-                  personality={jude.personality} />
-        <PuppyBio name={sarah.name}
-                  colors={sarah.colors} 
-                  gender={sarah.gender} 
-                  personality={sarah.personality} />
-        <PuppyBio name={marvin.name}
-                  colors={marvin.colors} 
-                  gender={marvin.gender} 
-                  personality={marvin.personality} />
-        <PuppyBio name={molly.name}
-                  colors={molly.colors} 
-                  gender={molly.gender} 
-                  personality={molly.personality} />
+        <PuppyBio name={Puppy1.name} 
+                  colors={Puppy1.colors} 
+                  gender={Puppy1.gender} 
+                  personality={Puppy1.personality} />
+        <PuppyBio name={Puppy2.name}
+                  colors={Puppy2.colors} 
+                  gender={Puppy2.gender} 
+                  personality={Puppy2.personality} />
+        <PuppyBio name={Puppy3.name}
+                  colors={Puppy3.colors} 
+                  gender={Puppy3.gender} 
+                  personality={Puppy3.personality} />
+        <PuppyBio name={Puppy4.name}
+                  colors={Puppy4.colors} 
+                  gender={Puppy4.gender} 
+                  personality={Puppy4.personality} />
       </div>
     );
   }
