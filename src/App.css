@@ -13,8 +13,22 @@ nav {
   margin: -1% 0;
 }
 
-.nav-item {
+.nav-item, li, h5 {
   font-family: 'Varela Round', sans-serif;
+}
+
+li {
+  list-style: none;
+  margin-left: -8%;
+}
+
+a {
+  color: #7C7C7D;
+}
+
+a:hover {
+  color: #4A4A4B;
+  text-decoration: none;
 }
 
 .display {
@@ -46,7 +60,7 @@ nav {
 }
 
 .playing-image, .green-toy {
-  margin: 1% 15%;
+  margin: 1% 1%;
   border: 10px solid #fff;
   border-radius: 20px;
   opacity: .8;
@@ -88,6 +102,10 @@ textarea {
   width: 90%;
   border: 1px solid #f2f2f2;
   border-radius: 10px;
+}
+
+.new-q {
+  margin-top: 4%;
 }
 
 label {

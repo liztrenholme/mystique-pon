@@ -42,7 +42,7 @@ class Application extends Component {
                 <input className="select" type="checkbox" name="best_time" value="evenings" />
                 <label htmlFor="best_time">Evenings</label>
 
-                <label htmlFor="children">Children's Names and Ages</label>
+                <label className="new-q" htmlFor="children">Children's Names and Ages</label>
                 <textarea rows="10" cols="40" name="children" width="50%" height="50%"></textarea>
 
                 <label htmlFor="veterinarian">Veterinarian Name, Address and Phone</label>
@@ -91,7 +91,7 @@ class Application extends Component {
                 <input className="select" type="radio" required name="whelped_litter_or_owned_stud" value="I do not plan to breed ny dog." />
                 <label htmlFor="whelped_litter_or_owned_stud">I do not plan to breed my dog.</label>
 
-                <label htmlFor="experience_breeding">If yes, please describe your experience:</label>
+                <label className="new-q" htmlFor="experience_breeding">If yes, please describe your experience:</label>
                 <textarea className="text-input" rows="10" cols="40" name="experience_breeding" width="50%" height="50%"></textarea>
 
                 <p className="survey-question">If yes, are you willing to have your dog screened for eye abnormalities and hip dysplasia, and to take the breeder's advice on all aspects of the breeding?</p>
@@ -104,7 +104,7 @@ class Application extends Component {
                 <input className="select" type="radio" required name="willing_to_screen_health" value="I do not plan to breed my dog." />
                 <label htmlFor="willing_to_screen_health">I do not plan to breed my dog.</label>
 
-                <label htmlFor="preferred_color_markings">Do you prefer a certain color or markings?</label>
+                <label className="new-q" htmlFor="preferred_color_markings">Do you prefer a certain color or markings?</label>
                 <textarea className="text-input" required rows="10" cols="40" name="preferred_color_markings" width="50%" height="50%"></textarea>
 
                 <label htmlFor="other_animals_in_house">Are there other animals in the house? (Please be specific with species, temperament, etc...)</label>
@@ -117,7 +117,7 @@ class Application extends Component {
                 <input className="select" type="radio" required name="owned_dog_before" value="no" />
                 <label htmlFor="owned_dog_before">No</label>
 
-                <label htmlFor="what_breed">If yes, what breed and for how long? </label>
+                <label className="new-q" htmlFor="what_breed">If yes, what breed and for how long? </label>
                 <textarea className="text-input" rows="10" cols="40" name="what_breed" width="50%" height="50%"></textarea>
 
                 <p className="survey-question">How often do you travel?</p>
@@ -136,7 +136,7 @@ class Application extends Component {
                 <input className="select" type="radio" required name="how_often_travel" value="almost never" />
                 <label htmlFor="how_often_travel">Almost never</label>
 
-                <label htmlFor="where_dog_when_travel">Where will your dog be when you travel?</label>
+                <label className="new-q" htmlFor="where_dog_when_travel">Where will your dog be when you travel?</label>
                 <input type="text" className="text-input" required name="where_dog_when_travel" />
 
                 <label htmlFor="groom_yourself_or_take_to_groomer">Do you have the time and patience to groom a longhaired double-coated dog, or are you planning on taking the dog to a groomer? </label>
@@ -155,7 +155,7 @@ class Application extends Component {
                 <input className="select" type="radio" required name="will_attend_obedience_with_puppy" value="unsure" />
                 <label htmlFor="will_attend_obedience_with_puppy">Unsure</label>
 
-                <label htmlFor="plan_to_show">Do you plan to show your dog in Conformation, Obedience, Herding, Agility, CGC, etc.?</label>
+                <label className="new-q" htmlFor="plan_to_show">Do you plan to show your dog in Conformation, Obedience, Herding, Agility, CGC, etc.?</label>
                 <textarea className="text-input" required rows="10" cols="40" name="plan_to_show" width="50%" height="50%"></textarea>
 
                 <label htmlFor="why_attracted_to_PON">Why are you attracted to a PON?</label>
