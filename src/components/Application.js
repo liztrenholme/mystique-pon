@@ -11,7 +11,7 @@ class Application extends Component {
             </div>
             <div className="col-md-6">
             <p>If you are interested in one of our puppies, please fill out and submit this application. We will be in touch shortly!</p>
-              <form action="https://formspree.io/liztrenholme@gmail.com" method="POST">
+              <form action="https://formspree.io/isabellemajerus54@gmail.com" method="POST">
                 <label htmlFor="full_name">Full Name</label>
                 <input className="text-input" type="text" required name="full_name" />
 

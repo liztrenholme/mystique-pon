@@ -12,7 +12,7 @@ class Contact extends Component {
               </div>
               <div className="col-md-6">
                 <p className="hear">Send us a question or comment!</p>
-                <form action="https://formspree.io/liztrenholme@gmail.com" method="POST">
+                <form action="https://formspree.io/isabellemajerus54@gmail.com" method="POST">
                   <input className="text-input" required type="text" name="first_name" placeholder="First name" />
                   <input className="text-input" type="text" name="last_name" placeholder="Last name" />
                   <input className="text-input" required type="email" name="_replyto" placeholder="Your email address" />

@@ -24,36 +24,36 @@ nav {
   align-content: center;
 }
 
-.announce-pic {
-  border: 10px solid #fff;
+.announcement, .links, .welcome-msg {
+  margin-top: 4%;
+}
+
+.links, .welcome-msg {
+  background-color: #fff;
+}
+
+.card {
+  width: 18rem;
   border-radius: 20px;
-  margin: 2%;
+  clear: both;
 }
 
-.dam {
-  width: 250px;
+.announce-pic {
+  border: 7px solid #fff;
+  border-radius: 20px;
+  opacity: .9;
 }
-
-.sire {
-  height: 250px;
-}
-
-/* .container-main {
-  background-image: url(./images/sitting-sweetly.PNG);
-  background-attachment: fixed;
-  
-} */
 
 .lineup {
   width: 25%;
   border: 2px solid #fff;
   border-radius: 10px;
-
+  opacity: .9;
 }
 
 li {
   list-style: none;
-  margin-left: -8%;
+  margin-left: -10%;
 }
 
 a {
@@ -89,6 +89,12 @@ a:hover {
   align-items: center;
 }
 
+.welcome-msg {
+  padding: 1%;
+  border: 10px solid #fff;
+  border-radius: 20px;
+}
+
 .btn-secondary {
   align-self: center;
 }
@@ -97,7 +103,7 @@ a:hover {
   margin: 1% 1%;
   border: 10px solid #fff;
   border-radius: 20px;
-  opacity: .8;
+  opacity: .9;
 }
 
 .puppy-name {
@@ -114,6 +120,26 @@ a:hover {
   margin: 0 20%;
   background-size: 'cover';
   background-repeat: 'no-repeat';
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 form, .puppy-each {
@@ -175,6 +201,11 @@ textarea:focus {
   }
   img {
     width: 50%;
+  }
+  .card {
+    width: 10rem;
+    border-radius: 20px;
+    margin: 2%;
   }
 
 }

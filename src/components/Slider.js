@@ -20,25 +20,25 @@ class Slider extends Component {
                                 <img className="d-block w-100" src={Puppy1} alt="puppy1" />
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src={SittingSweetly} alt="puppy5" />
+                                <img className="d-block w-100 fade" src={SittingSweetly} alt="puppy5" />
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src={Puppy2} alt="puppy2" />
+                                <img className="d-block w-100 fade" src={Puppy2} alt="puppy2" />
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src={Puppy3} alt="puppy3" />
+                                <img className="d-block w-100 fade" src={Puppy3} alt="puppy3" />
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src={Playing} alt="puppy5" />
+                                <img className="d-block w-100 fade" src={Playing} alt="puppy5" />
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src={Puppy4} alt="puppy4" />
+                                <img className="d-block w-100 fade" src={Puppy4} alt="puppy4" />
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src={Puppy5} alt="puppy5" />
+                                <img className="d-block w-100 fade" src={Puppy5} alt="puppy5" />
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100" src={Headshot} alt="headshot" />
+                                <img className="d-block w-100 fade" src={Headshot} alt="headshot" />
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
