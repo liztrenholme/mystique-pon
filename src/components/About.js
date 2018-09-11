@@ -15,7 +15,7 @@ class About extends Component {
             </div> */}
             <div className="col-md-6">
               <h5>About the Polish Lowland Sheepdog</h5>
-              <p> This happy and clever dog ... </p>
+              <p> Also known as PON (Polski Owczarek Nizinny), this lively and clever dog is easy to train and posesses a good memory.  The breed is generally a healthy one, with a double coat commonly in white with black, grey or brown markings.</p>
             </div>
             <div className="col-md-3">
               <img src={GreenToy} alt="green toy" height="40%" className="green-toy" />

@@ -17,6 +17,32 @@ nav {
   font-family: 'Varela Round', sans-serif;
 }
 
+.announce-pic {
+  border: 10px solid #fff;
+  border-radius: 20px;
+  margin: 2%;
+}
+
+.dam {
+  width: 250px;
+}
+
+.sire {
+  height: 250px;
+}
+
+/* .container-main {
+  background-image: url(./images/sitting-sweetly.PNG);
+  background-attachment: fixed;
+  
+} */
+
+.lineup {
+  width: 20%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
 li {
   list-style: none;
   margin-left: -8%;

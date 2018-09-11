@@ -30,7 +30,6 @@ class Puppies extends Component {
     }
     return (
       <div className="Puppies">
-        <p>Puppies!</p>
         <PuppyBio name={Puppy1.name} 
                   colors={Puppy1.colors} 
                   gender={Puppy1.gender} 
