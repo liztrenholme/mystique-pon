@@ -97,6 +97,7 @@ a:hover {
 
 .btn-secondary {
   align-self: center;
+  border-radius: 20px;
 }
 
 .playing-image, .green-toy {
