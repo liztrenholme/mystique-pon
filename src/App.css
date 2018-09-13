@@ -46,13 +46,14 @@ nav {
 
 .together {
   width: 100%;
+  background-color: #d4d1d1;
   /* border: 5px solid #fff; */
   border-radius: 20px;
-  opacity: .9;
+  opacity: .8;
 }
 
 .puppy-lineup {
-  background-image: url(./images/together.png);
+  /* background-image: url(./images/together.png); */
   background-size: contain;
   background-attachment: fixed;
   background-position: 0 30%;
@@ -137,15 +138,34 @@ a:hover {
   font-family: 'Varela Round', sans-serif;
 }
 
-.slider {
+/* .slider {
   height: 400px;
+} */
+
+.picholder {
+  background-color: #7C7C7D;
+  align-content: center;
+  height: 200px;
+
 }
 
-.slide {
-  margin: 0 20%;
-  background-size: 'cover';
-  background-repeat: 'no-repeat';
+
+.portrait {
+  margin: 0 auto;
 }
+
+/*
+.d-block {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+/* .slide {
+  margin: 0 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
 
 /* Fading animation */
 .fade {

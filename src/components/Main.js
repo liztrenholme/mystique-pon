@@ -6,8 +6,8 @@ import '../App.css';
 // import Puppy4 from '../images/puppy4.JPG';
 // import Puppy5 from '../images/puppy5.JPG';
 import Simon from '../images/simon.JPG';
-import Layla from '../images/sitting-sweetly.PNG';
-import Dam from '../images/dam.JPG';
+import Layla from '../images/dam2.jpeg';
+import MomAndPups from '../images/together2.png';
 
 class Main extends Component {
 
@@ -23,7 +23,7 @@ class Main extends Component {
               </div>
               <div className="col-md-8">
                 <div className="puppy-lineup fade">
-                  <img className="together" src={Dam} alt="puppies together" />
+                  <img className="together" src={MomAndPups} alt="puppies together" />
                   {/* <img className="lineup fade" src={Puppy2} alt="pup" />
                   <img className="lineup fade" src={Puppy3} alt="pup" />
                   <img className="lineup fade" src={Puppy4} alt="pup" />

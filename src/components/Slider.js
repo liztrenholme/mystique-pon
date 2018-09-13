@@ -17,28 +17,44 @@ class Slider extends Component {
                     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img className="d-block w-100" src={Puppy1} alt="puppy1" />
+                            <div className="picholder ">
+                                <img className="d-block w-100 fade" src={Puppy1} alt="puppy1" />
+                            </div>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100 fade" src={SittingSweetly} alt="puppy5" />
+                                <div className="picholder ">
+                                    <img className="d-block h-100 fade portrait" src={SittingSweetly} alt="puppy5" />
+                                </div>
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100 fade" src={Puppy2} alt="puppy2" />
+                                <div className="picholder ">
+                                    <img className="d-block w-100 fade" src={Puppy2} alt="puppy2" />
+                                </div>
                             </div>
                             <div className="carousel-item">
+                            <div className="picholder ">
                                 <img className="d-block w-100 fade" src={Puppy3} alt="puppy3" />
                             </div>
-                            <div className="carousel-item">
-                                <img className="d-block w-100 fade" src={Playing} alt="puppy5" />
                             </div>
                             <div className="carousel-item">
+                            <div className="picholder ">
+                                <img className="d-block h-100 fade portrait" src={Playing} alt="puppy5" />
+                            </div>
+                            </div>
+                            <div className="carousel-item">
+                            <div className="picholder ">
                                 <img className="d-block w-100 fade" src={Puppy4} alt="puppy4" />
                             </div>
-                            <div className="carousel-item">
-                                <img className="d-block w-100 fade" src={Puppy5} alt="puppy5" />
                             </div>
                             <div className="carousel-item">
-                                <img className="d-block w-100 fade" src={Headshot} alt="headshot" />
+                            <div className="picholder ">
+                                <img className="d-block w-100 fade" src={Puppy5} alt="puppy5" />
+                            </div>
+                            </div>
+                            <div className="carousel-item">
+                            <div className="picholder ">
+                                <img className="d-block h-100 fade portrait" src={Headshot} alt="headshot" />
+                            </div>
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
