@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
 // import Playing from '../images/playing.JPG';
-import Puppy2 from '../images/puppy2.JPG';
-import Puppy3 from '../images/puppy3.JPG';
-import Puppy4 from '../images/puppy4.JPG';
-import Puppy5 from '../images/puppy5.JPG';
+// import Puppy2 from '../images/puppy2.JPG';
+// import Puppy3 from '../images/puppy3.JPG';
+// import Puppy4 from '../images/puppy4.JPG';
+// import Puppy5 from '../images/puppy5.JPG';
 import Simon from '../images/simon.JPG';
 import Layla from '../images/sitting-sweetly.PNG';
+import Dam from '../images/dam.JPG';
 
 class Main extends Component {
 
@@ -18,13 +19,18 @@ class Main extends Component {
             <div className="row">
               {/* <div className="col-md-2">
               </div> */}
-              <div className="col-md-12">
-                <div className="puppy-lineup">
-                  <img className="lineup fade" src={Puppy2} alt="pup" />
+              <div className="col-md-2">
+              </div>
+              <div className="col-md-8">
+                <div className="puppy-lineup fade">
+                  <img className="together" src={Dam} alt="puppies together" />
+                  {/* <img className="lineup fade" src={Puppy2} alt="pup" />
                   <img className="lineup fade" src={Puppy3} alt="pup" />
                   <img className="lineup fade" src={Puppy4} alt="pup" />
-                  <img className="lineup fade" src={Puppy5} alt="pup" />
+                  <img className="lineup fade" src={Puppy5} alt="pup" /> */}
                 </div>
+              </div>
+              <div className="col-md-2">
               </div>
               {/* <div className="col-md-2">
               </div> */}

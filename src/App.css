@@ -44,6 +44,25 @@ nav {
   opacity: .9;
 }
 
+.together {
+  width: 100%;
+  /* border: 5px solid #fff; */
+  border-radius: 20px;
+  opacity: .9;
+}
+
+.puppy-lineup {
+  background-image: url(./images/together.png);
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: 0 30%;
+  background-repeat: no-repeat;
+  border: 5px solid #fff;
+  border-radius: 20px;
+  opacity: 1;
+  /* height: 20em; */
+}
+
 .lineup {
   width: 25%;
   border: 2px solid #fff;
@@ -71,6 +90,11 @@ a:hover {
   height: auto;
   color: black;
   background-color: #f2f2f2;
+  /* background-image: url(./images/tapestry.png); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 100%;
 }
 
 .carousel-inner {
@@ -193,11 +217,11 @@ textarea:focus {
 
 @media (max-width: 767.98px) {
   .display {
-    margin: 25% 1%;
+    margin: 22% 1%;
   }
-  .lineup {
+  /* .lineup {
     margin-top: 25%;
-  }
+  } */
   .slide {
     margin: 0 5%;
     background-size: 'cover';
@@ -216,7 +240,14 @@ textarea:focus {
     margin: 2%;
   }
 }
-@media (min-width:1100), (max-width: 1175.98px) {
+
+@media (min-width: 768px) {
+  .display {
+    margin: 13% 1%;
+  }
+}
+
+@media (min-width: 1088px) {
   .display {
     margin: 10% 1%;
   }
