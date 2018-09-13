@@ -237,7 +237,7 @@ textarea:focus {
 
 @media (max-width: 767.98px) {
   .display {
-    margin: 22% 1%;
+    margin: 25% 1%;
   }
   /* .lineup {
     margin-top: 25%;
@@ -247,10 +247,10 @@ textarea:focus {
     background-size: 'cover';
     background-repeat: 'no-repeat';
   }
-  /* img {
-    width: 50%;
-    height: 50%;
-  } */
+  .green-toy {
+    width: 200px;
+    height: 200px;
+  }
   .text-input, textarea {
     width: 100%;
   }

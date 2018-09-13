@@ -31,7 +31,7 @@ class About extends Component {
                 <li><a href="https://en.wikipedia.org/wiki/Polish_Lowland_Sheepdog">Wikipedia entry on PONs</a></li>
               </ul>
             </div>
-            <div className="col-md-1">
+            <div className="col-md-2">
             </div>
           </div>
             </div>
