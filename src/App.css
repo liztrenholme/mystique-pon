@@ -138,14 +138,9 @@ a:hover {
   font-family: 'Varela Round', sans-serif;
 }
 
-/* .slider {
-  height: 400px;
-} */
-
 .picholder {
   background-color: #7C7C7D;
-  align-content: center;
-  height: 200px;
+  height: 478px;
 
 }
 
@@ -157,12 +152,6 @@ a:hover {
 /*
 .d-block {
   height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-/* .slide {
-  margin: 0 20%;
   background-size: cover;
   background-repeat: no-repeat;
 } */
@@ -239,9 +228,6 @@ textarea:focus {
   .display {
     margin: 25% 1%;
   }
-  /* .lineup {
-    margin-top: 25%;
-  } */
   .slide {
     margin: 0 5%;
     background-size: 'cover';
@@ -259,16 +245,29 @@ textarea:focus {
     border-radius: 20px;
     margin: 2%;
   }
+  .picholder {
+    background-color: #7C7C7D;
+    height: 200px;
+  }
 }
 
 @media (min-width: 768px) {
   .display {
     margin: 13% 1%;
   }
+  .picholder {
+    background-color: #7C7C7D;
+    height: 300px;
+  
+  }
 }
 
 @media (min-width: 1088px) {
   .display {
     margin: 10% 1%;
+  }
+  .picholder {
+    background-color: #7C7C7D;
+    height: 800px;
   }
 }
