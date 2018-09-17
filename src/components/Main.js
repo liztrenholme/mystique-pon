@@ -23,7 +23,7 @@ class Main extends Component {
               </div>
               <div className="col-md-8">
                 <div className="puppy-lineup fade">
-                  <img className="together" src={MomAndPups} alt="puppies together" />
+                  {/* <img className="together" src={MomAndPups} alt="puppies together" /> */}
                   {/* <img className="lineup fade" src={Puppy2} alt="pup" />
                   <img className="lineup fade" src={Puppy3} alt="pup" />
                   <img className="lineup fade" src={Puppy4} alt="pup" />
