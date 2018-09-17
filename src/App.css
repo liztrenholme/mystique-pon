@@ -71,6 +71,10 @@ nav {
   opacity: .9;
 }
 
+.bold {
+  font-weight: bolder;
+}
+
 li {
   list-style: none;
   margin-left: -10%;

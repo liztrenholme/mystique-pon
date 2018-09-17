@@ -10,7 +10,8 @@ class Application extends Component {
             <div className="col-md-3">
             </div>
             <div className="col-md-6">
-            <p>If you are interested in one of our puppies, please fill out and submit this application. We will be in touch shortly!</p>
+            <p>If you are interested in one of our puppies, fill out and submit this application. We will be in touch shortly!</p>
+            <p className="bold">Serious inquiries only, please.</p>
               <form action="https://formspree.io/isabellemajerus54@gmail.com" method="POST">
                 <label htmlFor="full_name">Full Name</label>
                 <input className="text-input" type="text" required name="full_name" />
@@ -61,6 +62,9 @@ class Application extends Component {
 
                 <input className="select" type="radio" required name="puppy_gender_preference" value="no preference" />
                 <label htmlFor="puppy_gender_preference">No preference</label>
+
+                <label className="new-q" htmlFor="where_will_dog_stay_while_home">Where will your dog stay while you are home?</label>
+                <input className="text-input" type="text" name="where_will_dog_stay_while_home" />
 
                 <p className="survey-question">Do you plan to neuter or spay your dog?</p>
                 <input className="select" type="radio" required name="neuter_or_spay" value="yes" />
