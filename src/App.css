@@ -47,20 +47,14 @@ nav {
 
 .together {
   width: 100%;
-  background-color: #d4d1d1;
-  /* border: 5px solid #fff; */
+  border: 5px solid #fff;
   border-radius: 20px;
-  opacity: .8;
+  border-radius: 20px;
+  opacity: .9;
 }
 
 .puppy-lineup {
-  /* background-image: url(./images/together.png); */
-  background-size: contain;
-  background-attachment: fixed;
-  background-position: 0 30%;
-  background-repeat: no-repeat;
-  border: 5px solid #fff;
-  border-radius: 20px;
+  margin: 2%;
   opacity: 1;
   /* height: 20em; */
 }
@@ -148,7 +142,6 @@ a:hover {
   height: 478px;
 
 }
-
 
 .portrait {
   margin: 0 auto;
