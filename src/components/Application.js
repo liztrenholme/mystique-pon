@@ -10,6 +10,7 @@ class Application extends Component {
             <div className="col-md-3">
             </div>
             <div className="col-md-6">
+            <h3 className="title">Application</h3>
             <p>If you are interested in one of our puppies, fill out and submit this application. We will be in touch shortly!</p>
             <p className="bold">Serious inquiries only, please.</p>
               <form action="https://formspree.io/isabellemajerus54@gmail.com" method="POST">

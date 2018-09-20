@@ -6,34 +6,25 @@ import '../App.css';
 // import Puppy4 from '../images/puppy4.JPG';
 // import Puppy5 from '../images/puppy5.JPG';
 import Simon from '../images/simon.JPG';
-import Layla from '../images/dam2.jpeg';
-import MomAndPups from '../images/together2.png';
+import Layla from '../images/headshot.JPG';
+import MomAndPups from '../images/together-nature.png';
 
 class Main extends Component {
-
   render() {
     return (
       <div className="Main">
         <div className="welcome">
           <div className="container container-main">
             <div className="row">
-              {/* <div className="col-md-2">
-              </div> */}
               <div className="col-md-2">
               </div>
               <div className="col-md-8">
                 <div className="puppy-lineup fade">
-                  {/* <img className="together" src={MomAndPups} alt="puppies together" /> */}
-                  {/* <img className="lineup fade" src={Puppy2} alt="pup" />
-                  <img className="lineup fade" src={Puppy3} alt="pup" />
-                  <img className="lineup fade" src={Puppy4} alt="pup" />
-                  <img className="lineup fade" src={Puppy5} alt="pup" /> */}
+                  <img className="together" src={MomAndPups} alt="puppies together" />
                 </div>
               </div>
               <div className="col-md-2">
               </div>
-              {/* <div className="col-md-2">
-              </div> */}
             </div>
             <div className="row">
               <div className="col-md-3">
@@ -43,7 +34,6 @@ class Main extends Component {
                 <p>After being involved with the PON breed for over eighteen years, I have decided to start a breeding program here in Northeast Ohio.</p>
               </div>
               <div className="col-md-3">
-                {/* <img src={Playing} alt="green toy" height="40%" className="green-toy" /> */}
               </div>
             </div>
             <div className="row">
@@ -87,7 +77,6 @@ class Main extends Component {
           <div className="col-md-1">
           </div>
         </div>
-
       </div>
     );
   }

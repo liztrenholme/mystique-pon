@@ -1,11 +1,12 @@
 
-h4, h6 {
+h4, h6, .title {
   font-family: 'Elsie', cursive;
 }
 
-/* .navbar-brand {
-  margin-top: -3%; 
-} */
+.title {
+  margin-left: -5%;
+  font-weight: bold;
+}
 
 nav {
   margin-bottom: 3%;
