@@ -20,7 +20,7 @@ class Contact extends Component {
                   <input className="text-input" type="text" name="last_name" />
                   <label htmlFor="email">Your email address</label>
                   <input className="text-input" required type="email" name="_replyto" />
-                  <textarea required rows="10" cols="38" name="message" placeholder="Message..." width="50%" height="50%"></textarea>
+                  <textarea className="text-input" required rows="10" cols="38" name="message" placeholder="Message..." width="50%" height="50%"></textarea>
                   <input type="submit" className='btn-secondary' value="Send" />
                 </form>
               </div>

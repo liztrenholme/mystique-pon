@@ -1,11 +1,10 @@
 {
-  "main.css": "static/css/main.6ddd2209.css",
-  "main.css.map": "static/css/main.6ddd2209.css.map",
-  "main.js": "static/js/main.1fe7dfac.js",
-  "main.js.map": "static/js/main.1fe7dfac.js.map",
-  "static/media/dam2.jpeg": "static/media/dam2.ded306dc.jpeg",
+  "main.css": "static/css/main.b1103433.css",
+  "main.css.map": "static/css/main.b1103433.css.map",
+  "main.js": "static/js/main.68468b73.js",
+  "main.js.map": "static/js/main.68468b73.js.map",
   "static/media/green-toy.JPG": "static/media/green-toy.ee0c2839.JPG",
-  "static/media/headshot.JPG": "static/media/headshot.c0b1af7b.JPG",
+  "static/media/headshot.JPG": "static/media/headshot.8d04c373.JPG",
   "static/media/playing.JPG": "static/media/playing.5b0ccc5d.JPG",
   "static/media/puppy1.JPG": "static/media/puppy1.cab111c2.JPG",
   "static/media/puppy2.JPG": "static/media/puppy2.a5055312.JPG",
@@ -14,5 +13,5 @@
   "static/media/puppy5.JPG": "static/media/puppy5.3b32fd5c.JPG",
   "static/media/simon.JPG": "static/media/simon.1d8622c0.JPG",
   "static/media/sitting-sweetly.PNG": "static/media/sitting-sweetly.5489bbf5.PNG",
-  "static/media/together2.png": "static/media/together2.18a2a1b7.png"
+  "static/media/together-nature.png": "static/media/together-nature.34a9c47a.png"
 }
