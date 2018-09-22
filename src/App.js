@@ -7,7 +7,7 @@ import Application from './components/Application';
 import Contact from './components/Contact';
 import Gallery from './components/Gallery';
 import Main from './components/Main';
-import Puppies from './components/Puppies';
+// import Puppies from './components/Puppies';
 
 class App extends Component {
   constructor(props) {
@@ -28,8 +28,8 @@ class App extends Component {
         return <Main />;
       case 'about':
         return <About />;
-      case 'puppies':
-        return <Puppies />;
+      // case 'puppies':
+      //   return <Puppies />;
       case 'gallery':
         return <Gallery />;
       case 'contact':
@@ -72,9 +72,9 @@ class App extends Component {
               <p className="nav-item nav-link"
                 id="about"
                 onClick={this.handleClick.bind(this)}>About</p>
-              <p className="nav-item nav-link"
+              {/* <p className="nav-item nav-link"
                 id="puppies"
-                onClick={this.handleClick.bind(this)}>Puppies</p>
+                onClick={this.handleClick.bind(this)}>Puppies</p> */}
               <p className="nav-item nav-link"
                 id="gallery"
                 onClick={this.handleClick.bind(this)}>Gallery</p>

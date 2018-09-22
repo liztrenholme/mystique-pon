@@ -27,13 +27,19 @@ class Main extends Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-1">
               </div>
-              <div className="col-md-6 welcome-msg">
+              <div className="col-md-10 welcome-msg">
                 <h5>Welcome!</h5>
-                <p>After being involved with the PON breed for over eighteen years, I have decided to start a breeding program here in Northeast Ohio.</p>
+                <p>After being involved with the PON breed for over eighteen years, 
+                  I have decided to start a breeding program here in Northeast Ohio.  
+                  My foundation bitch is Layla (3 years old), a <a href="http://www.snowhillpons.com/">Snowhill's</a> PON with a wonderful 
+                  temperament, and has been a fantastic mother. My goal as a breeder is to produce 
+                  beautiful puppies with wonderful temperaments, making great family members as 
+                  well as structurally sound puppies to produce great champions. Please enjoy the website,
+                   which will be updated as we grow.</p>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-1">
               </div>
             </div>
             <div className="row">
@@ -74,8 +80,8 @@ class Main extends Component {
               </div>
             </div>
           </div>
-          <div className="col-md-1">
-          </div>
+          {/* <div className="col-md-1">
+          </div> */}
         </div>
       </div>
     );
