@@ -46,13 +46,13 @@ class Application extends Component {
                 <label htmlFor="best_time">Evenings</label>
 
                 <label className="new-q" htmlFor="children">Children's Names and Ages</label>
-                <textarea rows="10" cols="40" name="children" width="50%" height="50%"></textarea>
+                <textarea className="text-input" rows="10" cols="40" name="children" width="50%" height="50%"></textarea>
 
                 <label htmlFor="veterinarian">Veterinarian Name, Address and Phone</label>
-                <textarea required rows="10" cols="40" name="veterinarian" width="50%" height="50%"></textarea>
+                <textarea className="text-input" required rows="10" cols="40" name="veterinarian" width="50%" height="50%"></textarea>
 
                 <label htmlFor="hobbies">Family Hobbies</label>
-                <textarea required rows="10" cols="40" name="hobbies" width="50%" height="50%"></textarea>
+                <textarea className="text-input" required rows="10" cols="40" name="hobbies" width="50%" height="50%"></textarea>
 
                 <p className="survey-question">Do you prefer a male or a female?</p>
                 <input className="select" type="radio" required name="puppy_gender_preference" value="male" />
