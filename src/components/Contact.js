@@ -14,11 +14,11 @@ class Contact extends Component {
               <h3 className="title">Ask a question</h3>
                 <p className="hear">Send us a general question or comment here.  If you are interested in one of our puppies, please fill out the application.</p>
                 <form action="https://formspree.io/isabellemajerus54@gmail.com" method="POST">
-                <label htmlFor="first_name">First name</label>
+                <label htmlFor="first_name">First Name</label>
                   <input className="text-input" required type="text" name="first_name" />
-                  <label htmlFor="last_name">Last name</label>
+                  <label htmlFor="last_name">Last Name</label>
                   <input className="text-input" type="text" name="last_name" />
-                  <label htmlFor="email">Your email address</label>
+                  <label htmlFor="email">Your Email Address</label>
                   <input className="text-input" required type="email" name="_replyto" />
                   <textarea className="text-input" required rows="10" cols="38" name="message" placeholder="Message..." width="50%" height="50%"></textarea>
                   <input type="submit" className='btn-secondary' value="Send" />
