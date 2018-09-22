@@ -29,6 +29,10 @@ nav {
   margin-top: 4%;
 }
 
+.empty {
+  padding: 2px;
+}
+
 .links, .welcome-msg {
   background-color: #fff;
 }

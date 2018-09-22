@@ -30,7 +30,7 @@ class Main extends Component {
               <div className="col-md-1">
               </div>
               <div className="col-md-10 welcome-msg">
-                <h5>Welcome!</h5>
+                <h4>Welcome!</h4>
                 <p>After being involved with the PON breed for over eighteen years, 
                   I have decided to start a breeding program here in Northeast Ohio.  
                   My foundation bitch is Layla (3 years old), a <a href="http://www.snowhillpons.com/">Snowhill's</a> PON with a wonderful 
@@ -48,7 +48,9 @@ class Main extends Component {
                 </div>
                 <div className="col-md-6 announce-msg">
                   <h4>Announcing...</h4>
-                  <p>We are pleased to announce the birth of Simon and Layla's puppies born (date)!  Descending from a long line of AKC champions, the puppies' parents have been tested for PRA, hip dysplasia, CERF and are CHIC certified.</p>
+                  <p>We are pleased to announce the birth of Simon and Layla's puppies born August 8, 2018!  
+                    Descending from a long line of AKC champions, the puppies' parents have been tested for PRA, 
+                    hip dysplasia, CERF and are CHIC certified.</p>
                 </div>
                 <div className="col-md-3">
                 </div>
@@ -80,8 +82,13 @@ class Main extends Component {
               </div>
             </div>
           </div>
-          {/* <div className="col-md-1">
-          </div> */}
+          <div className="col-md-1">
+          </div>
+        </div>
+        <div className="row">
+        <div className="col-md-12">
+        <div className="empty"/>
+        </div>
         </div>
       </div>
     );
