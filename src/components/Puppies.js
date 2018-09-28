@@ -9,28 +9,28 @@ import Puppy4Pic from '../images/p4.jpg'
 class Puppies extends Component {
   render() {
     const Puppy1 = {
-      name: "puppy1",
+      name: "puppy one",
       image: Puppy1Pic,
       colors: "brown and white",
       gender: "male",
       personality: "sweet and cuddly"
     }
     const Puppy2 = {
-      name: "puppy2",
+      name: "puppy two",
       image: Puppy2Pic,
       colors: "brown and white",
       gender: "female",
       personality: "curious"
     }
     const Puppy3 = {
-      name: "puppy3",
+      name: "puppy three",
       image: Puppy3Pic,
       colors: "black and white",
       gender: "male",
       personality: "wild"
     }
     const Puppy4 = {
-      name: "puppy4",
+      name: "puppy four",
       image: Puppy4Pic,
       colors: "black and white",
       gender: "female",

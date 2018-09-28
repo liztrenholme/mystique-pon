@@ -16,6 +16,7 @@ class App extends Component {
   }
   state = { whichComponent: <Main /> };
 
+    // this is my workaround to display components listed in navbar without use of react router
   handleClick(event) { // this is what happens when the click is clicked
     let id = event.target.id;
     this.setState({
@@ -43,6 +44,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      {/* React router isn't friendly with gh-pages! Sadface. */}
       {/* <Router>
         <Route path={"about"} component={About} />
         <Route path={"puppies"} component={Puppies} />

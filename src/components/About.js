@@ -3,21 +3,20 @@ import '../App.css';
 import GreenToy from '../images/green-toy.JPG';
 
 class About extends Component {
-
-  // need an if/else to decide whether to render 
-  // stove or oven depending on chosen ingredient for game
   render() {
     return (
       <div className="About">
         <div className="container">
           <div className="row">
-            {/* <div className="col-md-1">
-            </div> */}
             <div className="col-md-6">
               <div className="row">
                 <div className="col-md-12">
                   <h5>About the Polish Lowland Sheepdog</h5>
-                  <p> Also known as PON (Polski Owczarek Nizinny), this lively and clever dog is easy to train and posesses a good memory.  The breed is generally a healthy one, with a double coat commonly in white with black, grey or brown markings.</p>
+                  <p> Also known as PON (Polski Owczarek Nizinny), 
+                    this lively and clever dog is easy to train and 
+                    posesses a good memory.  The breed is generally 
+                    a healthy one, with a double coat commonly in 
+                    white with black, grey or brown markings.</p>
                 </div>
               </div>
               <div className="row">
@@ -36,7 +35,8 @@ class About extends Component {
               </div>
             </div>
             <div className="col-md-5">
-              <img src={GreenToy} alt="green toy" width="100%" className="green-toy" />
+              <img src={GreenToy} alt="green toy" 
+              width="100%" className="green-toy" />
             </div>
             <div className="col-md-1">
             </div>
