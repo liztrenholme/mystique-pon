@@ -24,11 +24,11 @@ class Main extends Component {
               <h4>Welcome!</h4>
               <p className="welcome-blurb">After being involved with the PON breed for over eighteen years,
                 I have decided to start a breeding program here in Northeast Ohio.
-                  My foundation bitch is Layla (3 years old), a <a href="http://www.snowhillpons.com/">Snowhill's</a>
-                PON.  She is a fantastic mother with a wonderful temperament.
-               My goal as a breeder is to produce beautiful, healthy puppies with similarly desirable temperaments, and
-               I want them to ultimately be as much a member of the family as well as great champions. Please enjoy the
-                  website, and watch for updates as we grow!</p>
+                My foundation bitch is Layla (3 years old), a <a href="http://www.snowhillpons.com/">Snowhill</a> PON.
+                She is a fantastic mother with a wonderful temperament.
+                My goal as a breeder is to produce beautiful, healthy puppies with similarly desirable temperaments, and
+                I want them to ultimately be as much a member of the family as well as great champions. Please enjoy the
+                website, and watch for updates as we grow!</p>
             </div>
           </div>
           <div className="container container-main">
