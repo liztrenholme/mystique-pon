@@ -3,6 +3,10 @@ h4, h6, .title {
   font-family: 'Elsie', cursive;
 }
 
+footer {
+  margin: 1%;
+}
+
 .title {
   margin-left: -5%;
   font-weight: bold;
@@ -38,7 +42,16 @@ nav {
 }
 
 .welcome-msg {
-  margin: 2% 1%;
+  margin: 1% 1%;
+  opacity: .9;
+  min-height: 15rem;
+  max-height: 100%;
+}
+
+.welcome-blurb {
+  min-height: 15rem;
+  max-height: 16rem;
+  overflow: scroll;
 }
 
 .card {
@@ -55,18 +68,22 @@ nav {
 
 .together {
   width: 100%;
-  border: 5px solid #fff;
+  max-width: 700px;
+  border: 2px solid #fff;
   border-radius: 20px;
   border-radius: 20px;
   opacity: .9;
+  min-height: 20rem;
+  max-height: 22rem;
 }
 
 .lineup-row {
   background-color: #4A4A4B;
+  width: 105%;
 }
 
 .puppy-lineup {
-  margin: 2% 10%;
+  margin: 2% 6%;
   opacity: 1;
   /* height: 20em; */
 }
@@ -235,6 +252,14 @@ textarea:focus {
 }
 
 @media (max-width: 767.98px) {
+  .together, .welcome-msg, .welcome-blurb {
+    min-height: auto;
+    max-height: none;
+    width: 100%;
+  }
+  .welcome-msg {
+    margin: 1% -1% 1% 1%;
+  }
   .display {
     margin: 25% 1%;
   }
