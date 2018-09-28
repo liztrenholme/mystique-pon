@@ -40,7 +40,11 @@ class Main extends Component {
               <div className="col-md-1">
               </div>
               <div className="col-md-10 updates-blog">
-
+                <img src={Pumpkin3} className="puppy-pumpkin" alt="puppy with pumpkins" />
+                <img src={Pumpkin1} className="puppy-pumpkin" alt="puppy with pumpkins" />
+                <img src={Pumpkin2} className="puppy-pumpkin" alt="puppy with pumpkins" />
+                <img src={Pumpkin4} className="puppy-pumpkin" alt="puppy with pumpkins" />
+                <img src={Pumpkin} className="puppy-pumpkin" alt="puppy with pumpkins" />
               </div>
               <div className="col-md-1">
               </div>
