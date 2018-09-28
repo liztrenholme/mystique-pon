@@ -23,7 +23,7 @@ class Slider extends Component {
                             </div>
                             <div className="carousel-item">
                                 <div className="picholder ">
-                                    <img className="d-block h-100 fade portrait" src={SittingSweetly} alt="puppy5" />
+                                    <img className="d-block fade portrait" src={SittingSweetly} alt="puppy5" />
                                 </div>
                             </div>
                             <div className="carousel-item">
@@ -38,7 +38,7 @@ class Slider extends Component {
                             </div>
                             <div className="carousel-item">
                             <div className="picholder ">
-                                <img className="d-block h-100 fade portrait" src={Playing} alt="puppy5" />
+                                <img className="d-block fade portrait" src={Playing} alt="puppy5" />
                             </div>
                             </div>
                             <div className="carousel-item">
@@ -53,7 +53,7 @@ class Slider extends Component {
                             </div>
                             <div className="carousel-item">
                             <div className="picholder ">
-                                <img className="d-block h-100 fade portrait" src={Headshot} alt="headshot" />
+                                <img className="d-block fade portrait" src={Headshot} alt="headshot" />
                             </div>
                             </div>
                         </div>
