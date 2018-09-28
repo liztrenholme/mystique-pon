@@ -1,9 +1,9 @@
-
 h4, h6, .title {
   font-family: 'Elsie', cursive;
 }
 
 footer {
+  align-self: center;
   margin: 1%;
 }
 
@@ -272,6 +272,9 @@ textarea:focus {
     width: 200px;
     height: 200px;
   }
+  .puppy-bio-image {
+    width: 100%;
+  }
   .text-input, textarea {
     width: 100%;
   }
@@ -289,6 +292,9 @@ textarea:focus {
 @media (min-width: 768px) {
   .display {
     margin: 13% 1%;
+  }
+  .puppy-bio-image {
+    width: 100%;
   }
   .picholder {
     background-color: #7C7C7D;

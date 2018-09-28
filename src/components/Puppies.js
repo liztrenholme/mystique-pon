@@ -39,13 +39,13 @@ class Puppies extends Component {
     return (
       <div className="Puppies">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-5">
             <PuppyBio image={Puppy1.image}
               name={Puppy1.name} />
             <PuppyBio image={Puppy2.image}
               name={Puppy2.name} />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <PuppyBio image={Puppy3.image}
               name={Puppy3.name} />
             <PuppyBio image={Puppy4.image}
