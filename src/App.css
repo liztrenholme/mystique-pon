@@ -25,7 +25,7 @@ nav {
   align-content: center;
 }
 
-.announcement, .links, .welcome-msg, .card {
+.announcement, .links, .card {
   margin-top: 4%;
 }
 
@@ -35,6 +35,10 @@ nav {
 
 .links, .welcome-msg {
   background-color: #fff;
+}
+
+.welcome-msg {
+  margin: 2% 1%;
 }
 
 .card {
@@ -57,8 +61,12 @@ nav {
   opacity: .9;
 }
 
+.lineup-row {
+  background-color: #4A4A4B;
+}
+
 .puppy-lineup {
-  margin: 2%;
+  margin: 2% 10%;
   opacity: 1;
   /* height: 20em; */
 }

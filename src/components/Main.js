@@ -13,31 +13,33 @@ class Main extends Component {
   render() {
     return (
       <div className="Main">
-        <div className="welcome">
-          <div className="container container-main">
-            <div className="row">
-              <div className="col-md-2">
-              </div>
-              <div className="col-md-8">
+      <div className="row lineup-row">
+              {/* <div className="col-md-2">
+              </div> */}
+              <div className="col-md-7">
                 <div className="puppy-lineup fade">
                   <img className="together" src={MomAndPups} alt="puppies together" />
                 </div>
               </div>
-              <div className="col-md-2">
+              <div className="col-md-3 welcome-msg fade">
+              <h4>Welcome!</h4>
+                <p>After being involved with the PON breed for over eighteen years, 
+                  I have decided to start a breeding program here in Northeast Ohio.  
+                  My foundation bitch is Layla (3 years old), a 
+                  <a href="http://www.snowhillpons.com/">Snowhill's</a> PON.  She is a fantastic mother with a wonderful temperament. 
+                  My goal as a breeder is to produce beautiful, healthy puppies with similarly desirable temperaments.
+                  I want them to ultimately be as much a member of the family as well as great champions. Please enjoy the 
+                  website, and watch for updates as we grow!</p>
               </div>
             </div>
+        <div className="welcome">
+          <div className="container container-main">
+            
             <div className="row">
               <div className="col-md-1">
               </div>
               <div className="col-md-10 welcome-msg">
-                <h4>Welcome!</h4>
-                <p>After being involved with the PON breed for over eighteen years, 
-                  I have decided to start a breeding program here in Northeast Ohio.  
-                  My foundation bitch is Layla (3 years old), a <a href="http://www.snowhillpons.com/">Snowhill's</a> PON with a wonderful 
-                  temperament, and has been a fantastic mother. My goal as a breeder is to produce 
-                  beautiful puppies with wonderful temperaments, making great family members as 
-                  well as structurally sound puppies to produce great champions. Please enjoy the website,
-                   which will be updated as we grow.</p>
+                
               </div>
               <div className="col-md-1">
               </div>
