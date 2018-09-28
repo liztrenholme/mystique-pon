@@ -3,7 +3,8 @@ h4, h6, .title {
 }
 
 footer {
-  align-self: center;
+  left: auto;
+  right: auto;
   margin: 1%;
 }
 

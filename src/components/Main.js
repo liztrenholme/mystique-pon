@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
-// import Playing from '../images/playing.JPG';
-// import Puppy2 from '../images/puppy2.JPG';
-// import Puppy3 from '../images/puppy3.JPG';
-// import Puppy4 from '../images/puppy4.JPG';
-// import Puppy5 from '../images/puppy5.JPG';
+import Pumpkin from '../images/pumpkin.JPEG';
+import Pumpkin1 from '../images/pumpkin1.JPEG';
+import Pumpkin2 from '../images/pumpkin2.JPEG';
+import Pumpkin3 from '../images/pumpkin3.JPEG';
+import Pumpkin4 from '../images/pumpkin4.JPEG';
 import Simon from '../images/simon.JPG';
 import Layla from '../images/headshot.JPG';
 import MomAndPups from '../images/together-nature.png';
