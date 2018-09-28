@@ -11,8 +11,9 @@ class PuppyBio extends Component {
     return (
       <div className="PuppyBio">
         <div className="puppy-each">
-            <p className="puppy-name">{this.props.name}</p>
-            <p className="puppy-description">{this.props.name} is a {this.props.personality} {this.props.gender} and is {this.props.colors}.</p>
+            <img className="puppy-bio-image" 
+            src={this.props.image} 
+            alt={this.props.name} />
         </div>
       </div>
     );

@@ -153,18 +153,18 @@ a:hover {
   border-radius: 20px;
 }
 
-.playing-image, .green-toy {
+.playing-image, .green-toy, .puppy-bio-image {
   margin: 1% 1%;
   border: 10px solid #fff;
   border-radius: 20px;
   opacity: .9;
 }
 
-.puppy-name {
+/* .puppy-name {
   font-weight: bold;
   font-size: 110%;
   font-family: 'Varela Round', sans-serif;
-}
+} */
 
 .picholder {
   background-color: #7C7C7D;
