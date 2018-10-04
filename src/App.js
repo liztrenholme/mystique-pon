@@ -84,7 +84,7 @@ class App extends Component {
         <div className="display">
           {this.state.whichComponent}
         </div>
-        <footer>&#9400; 2018 Mystique PON | All rights reserved.</footer>
+        <footer>&#9400; 2018 Enchanting PON | All rights reserved.</footer>
       </div>
     );
   }
