@@ -3,10 +3,6 @@ import '../App.css';
 //import Playing from '../images/playing.JPG';
 
 class PuppyBio extends Component {
-  // constructor(props) {
-  //     super(props);
-  //   }
-  // puppyName = <div className="puppy-name" name />;
   render() {
     return (
       <div className="PuppyBio">

@@ -45,7 +45,7 @@ class App extends Component {
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <a className="navbar-brand" id="home">
-            <h4>Mystique PON</h4>
+            <h4>Enchanting PONs</h4>
             <h6>Polish Lowland Sheepdogs</h6>
           </a>
           <button className="navbar-toggler"
