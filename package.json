@@ -2,7 +2,7 @@
   "name": "mystique-pon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://liztrenholme.github.io/mystique-pon",
+  "homepage": "https://enchantingpon.com",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.2",
