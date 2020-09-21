@@ -8,16 +8,18 @@ import Pumpkin4 from '../images/pumpkin4.JPEG';
 import Simon from '../images/simon.JPG';
 import Layla from '../images/headshot.JPG';
 import MomAndPups from '../images/together-nature.png';
+import ReactPlayer from 'react-player';
 
 class Main extends Component {
   render() {
+    const vidUrl = 'https://www.youtube.com/watch?v=KiHCIIXhr0c';
     return (
       <div className="Main">
         <div className="welcome">
           <div className="row lineup-row">
             <div className="col-md-7">
               <div className="puppy-lineup fade">
-                <img className="together" src={MomAndPups} alt="puppies together" />
+                <img className="together" src={MomAndPups} alt="mom and puppies together" />
               </div>
             </div>
             <div className="col-md-4 welcome-msg fade">
@@ -36,6 +38,18 @@ class Main extends Component {
             </div>
           </div>
           <div className="container container-main">
+            <div className='row'>
+              <div className='col-md-12 video-player'>
+                <ReactPlayer 
+                  className='react-player'
+                  url={vidUrl}
+                  // light
+                  controls
+                  width='100%'
+                  height='100%'
+                />
+              </div>
+            </div>
             <div className="row">
               <div className="col-md-12 updates-blog">
                 <img src={Pumpkin3} className="puppy-pumpkin" alt="puppy with pumpkins" />

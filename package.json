@@ -5,10 +5,11 @@
   "homepage": "https://enchantingpon.com",
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "react": "^16.4.2",
+    "react": "^16.13.1",
     "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.4.2",
-    "react-scripts": "1.1.4"
+    "react-dom": "^16.13.1",
+    "react-player": "^2.1.1",
+    "react-scripts": "^2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,5 +18,11 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

@@ -105,6 +105,18 @@ nav {
   padding: 2em;
 }
 
+.video-player {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: rgb(255, 255, 255);
+  width: fit-content;
+  height: 30em;
+}
+
+.react-player {
+  margin: auto;
+}
+
 .puppy-lineup {
   margin: 2% 6%;
   opacity: 1;
