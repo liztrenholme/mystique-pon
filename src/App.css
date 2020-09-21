@@ -1,4 +1,5 @@
 /* Basic styling */
+
 h4, h6, .title {
   font-family: 'Elsie', cursive;
 }
@@ -16,6 +17,7 @@ footer {
 }
 
 /* Navbar */
+
 nav {
   margin-bottom: 3%;
 }
@@ -23,6 +25,7 @@ nav {
 .nav-link, .nav-item {
   font-family: 'Varela Round', sans-serif;
   margin: -1% 0;
+  font-size: 1.5em;
 }
 
 .nav-item, li, h5, p {
@@ -34,8 +37,9 @@ nav {
 }
 
 /* Main component styling */
+
 .announcement, .links, .card {
-  margin-top: 4%;
+  margin-top: .4em;
 }
 
 .empty {
@@ -47,7 +51,7 @@ nav {
 }
 
 .welcome-msg {
-  margin: 1% 1%;
+  margin: .5em;
   opacity: .9;
   min-height: 15rem;
   max-height: 100%;
@@ -71,6 +75,10 @@ nav {
   opacity: .9;
 }
 
+.Main {
+  margin-top: -4em;
+}
+
 .together {
   width: 100%;
   max-width: 700px;
@@ -84,11 +92,17 @@ nav {
 
 .lineup-row {
   background-color: #4A4A4B;
-  width: 105%;
+  width: 100%;
+  margin: 0 !important;
 }
 
 .updates-blog {
   background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2em;
 }
 
 .puppy-lineup {
@@ -178,6 +192,7 @@ a:hover {
 }
 
 /* hiding in case we need it for later */
+
 /* .puppy-name {
   font-weight: bold;
   font-size: 110%;
@@ -185,6 +200,7 @@ a:hover {
 } */
 
 /* Styling for slideshow */
+
 .d-block {
   height: auto;
 }
@@ -193,7 +209,6 @@ a:hover {
   background-color: #7C7C7D;
   min-height: 470px;
   max-height: 478px;
-
 }
 
 .portrait {
@@ -204,6 +219,7 @@ a:hover {
 }
 
 /* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -214,16 +230,25 @@ a:hover {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
 
 /* Styling for contact and application forms */
+
 form {
   margin: 10%;
 }
@@ -264,13 +289,16 @@ textarea, .text-input {
 
 .select:focus
 /* input:valid, */
+
 input:focus,
 /* textarea:valid, */
+
 textarea:focus {
-  border-bottom: 2px solid #4e899c;  
+  border-bottom: 2px solid #4e899c;
 }
 
 /* Mobile view optimization */
+
 @media (max-width: 767.98px) {
   .together, .welcome-msg, .welcome-blurb {
     min-height: auto;
@@ -278,7 +306,7 @@ textarea:focus {
     width: 100%;
   }
   .welcome-msg {
-    margin: 1% -1% 1% 1%;
+    /* margin: 1% -1% 1% 1%; */
   }
   .display {
     margin: 25% 1%;
