@@ -317,9 +317,9 @@ textarea:focus {
     max-height: none;
     width: 100%;
   }
-  .welcome-msg {
-    /* margin: 1% -1% 1% 1%; */
-  }
+  /* .welcome-msg {
+    /* margin: 1% -1% 1% 1%;
+  } */
   .display {
     margin: 25% 1%;
   }
