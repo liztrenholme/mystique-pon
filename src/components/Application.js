@@ -10,9 +10,9 @@ class Application extends Component {
             <div className="col-md-3">
             </div>
             <div className="col-md-6">
-            <h3 className="title">Application</h3>
-            <p>If you are interested in one of our puppies, fill out and submit this application. We will be in touch shortly!</p>
-            <p className="bold">Serious inquiries only, please.</p>
+              <h3 className="title">Application</h3>
+              <p>If you are interested in one of our puppies, fill out and submit this application. We will be in touch shortly!</p>
+              <p className="bold">Serious inquiries only, please.</p>
               <form action="https://formspree.io/isabellemajerus54@gmail.com" method="POST">
                 <label htmlFor="full_name">Full Name</label>
                 <input className="text-input" type="text" required name="full_name" />
@@ -23,10 +23,10 @@ class Application extends Component {
                 <label htmlFor="occupation">Occupation</label>
                 <input className="text-input" type="text" required name="occupation" />
 
-                <label htmlFor="spouse_name">Spouse's Name</label>
+                <label htmlFor="spouse_name">{'Spouse\'s Name'}</label>
                 <input className="text-input" type="text" name="spouse_name" />
 
-                <label htmlFor="spouse_occupation">Spouse's Occupation</label>
+                <label htmlFor="spouse_occupation">{'Spouse\'s Occupation'}</label>
                 <input className="text-input" type="text" name="spouse_occupation" />
 
                 <label htmlFor="address">Street Address</label>
@@ -45,7 +45,7 @@ class Application extends Component {
                 <input className="select" type="checkbox" name="best_time" value="evenings" />
                 <label htmlFor="best_time">Evenings</label>
 
-                <label className="new-q" htmlFor="children">Children's Names and Ages</label>
+                <label className="new-q" htmlFor="children">{'Children\'s Names and Ages'}</label>
                 <textarea className="text-input" rows="10" cols="40" name="children" width="50%" height="50%"></textarea>
 
                 <label htmlFor="veterinarian">Veterinarian Name, Address and Phone</label>
@@ -100,7 +100,8 @@ class Application extends Component {
                 <label className="new-q" htmlFor="experience_breeding">If yes, please describe your experience:</label>
                 <textarea className="text-input" rows="10" cols="40" name="experience_breeding" width="50%" height="50%"></textarea>
 
-                <p className="survey-question">If yes, are you willing to have your dog screened for eye abnormalities and hip dysplasia, and to take the breeder's advice on all aspects of the breeding?</p>
+                <p className="survey-question">{`If yes, are you willing to have your dog screened for eye abnormalities 
+                and hip dysplasia, and to take the breeder's advice on all aspects of the breeding?`}</p>
                 <input className="select" type="radio" required name="willing_to_screen_health" value="yes" />
                 <label htmlFor="willing_to_screen_health">Yes</label>
 

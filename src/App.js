@@ -9,14 +9,14 @@ import Puppies from './components/Puppies';
 
 class App extends Component {
   constructor(props) {
-    super(props); // must call super or else 'this' will be uninitialized
-    this.showComponent = this.showComponent.bind(this); // bind ties the onclick to 'this'
+    super(props); 
+    this.showComponent = this.showComponent.bind(this);
   }
   state = { whichComponent: <Main /> };
 
-    // this is my workaround to display components listed in navbar without use of react router,
-    // because react router is not friendly with gh-pages! sadeface.
-  handleClick(event) { // this is what happens when the click is clicked
+  // this is my workaround to display components listed in navbar without use of react router,
+  // because react router is not friendly with gh-pages! sadface.
+  handleClick(event) {
     let id = event.target.id;
     this.setState({
       whichComponent: this.showComponent(id)
@@ -24,20 +24,20 @@ class App extends Component {
   }
   showComponent(id) {
     switch (id) {
-      case 'home':
-        return <Main />;
-      case 'about':
-        return <About />;
-      case 'puppies':
-        return <Puppies />;
-      case 'gallery':
-        return <Gallery />;
-      case 'contact':
-        return <Contact />;
-      case 'application':
-        return <Application />;
-      default:
-        return null;
+    case 'home':
+      return <Main />;
+    case 'about':
+      return <About />;
+    case 'puppies':
+      return <Puppies />;
+    case 'gallery':
+      return <Gallery />;
+    case 'contact':
+      return <Contact />;
+    case 'application':
+      return <Application />;
+    default:
+      return null;
     }
   }
   render() {
@@ -84,7 +84,7 @@ class App extends Component {
         <div className="display">
           {this.state.whichComponent}
         </div>
-        <footer>&#9400; 2018 Enchanting PON | All rights reserved.</footer>
+        <footer>&#9400; 2018-{new Date().getFullYear()} Enchanting PON | All rights reserved.</footer>
       </div>
     );
   }

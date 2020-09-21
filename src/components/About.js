@@ -23,7 +23,7 @@ class About extends Component {
                 <div className="col-md-10 links">
                   <h5>Helpful Links</h5>
                   <ul>
-                    <li><a href="http://www.ponpuppybuyersguide.com">PON Puppy Buyer's Guide</a></li>
+                    <li><a href="http://www.ponpuppybuyersguide.com">{'PON Puppy Buyer\'s Guide'}</a></li>
                     <li><a href="http://www.aponc.org">American Polish Lowland Sheepdog Club</a></li>
                     <li><a href="http://www.vetstreet.com/dogs/polish-lowland-sheepdog">VetStreet</a></li>
                     <li><a href="https://www.akc.org/dog-breeds/polish-lowland-sheepdog/">American Kennel Club</a></li>
@@ -36,7 +36,7 @@ class About extends Component {
             </div>
             <div className="col-md-5">
               <img src={GreenToy} alt="green toy" 
-              width="100%" className="green-toy" />
+                width="100%" className="green-toy" />
             </div>
             <div className="col-md-1">
             </div>
