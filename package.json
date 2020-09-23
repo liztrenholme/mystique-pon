@@ -5,6 +5,7 @@
   "homepage": "https://enchantingpon.com",
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.13.1",
