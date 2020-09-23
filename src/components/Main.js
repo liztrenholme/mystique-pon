@@ -8,6 +8,7 @@ import Pumpkin4 from '../images/pumpkin4.JPEG';
 import Simon from '../images/simon.JPG';
 import Layla from '../images/headshot.JPG';
 import MomAndPups from '../images/together-nature.png';
+import PuppyBackground from '../images/puppy1.JPG';
 import ReactPlayer from 'react-player';
 
 class Main extends Component {
@@ -15,7 +16,10 @@ class Main extends Component {
     const vidUrl = 'https://www.youtube.com/watch?v=KiHCIIXhr0c';
     return (
       <div className="Main">
+        <div className='parallax-bg' />
         <div className="welcome">
+
+          
           <div className="row lineup-row">
             <div className="col-md-7">
               <div className="puppy-lineup fade">
@@ -37,6 +41,8 @@ class Main extends Component {
                 website, and watch for updates as we grow!</p>
             </div>
           </div>
+
+
           <div className="container container-main">
             <div className='row'>
               <div className='col-md-12 video-player'>
