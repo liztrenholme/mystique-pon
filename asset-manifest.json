@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a15845ac.chunk.css",
+    "main.css": "/static/css/main.024200df.chunk.css",
     "main.js": "/static/js/main.fb501fb5.chunk.js",
     "main.js.map": "/static/js/main.fb501fb5.chunk.js.map",
     "reactPlayerDailyMotion.js": "/static/js/reactPlayerDailyMotion.2655f634.chunk.js",
@@ -32,9 +32,9 @@
     "static/js/14.316b1db9.chunk.js": "/static/js/14.316b1db9.chunk.js",
     "static/js/14.316b1db9.chunk.js.map": "/static/js/14.316b1db9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b5ae3f3a8d440a30a6840b0ab1693b80.js": "/precache-manifest.b5ae3f3a8d440a30a6840b0ab1693b80.js",
+    "precache-manifest.26bc82252221197aa614206b46c34941.js": "/precache-manifest.26bc82252221197aa614206b46c34941.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a15845ac.chunk.css.map": "/static/css/main.a15845ac.chunk.css.map",
+    "static/css/main.024200df.chunk.css.map": "/static/css/main.024200df.chunk.css.map",
     "static/js/13.5c96b04f.chunk.js.LICENSE.txt": "/static/js/13.5c96b04f.chunk.js.LICENSE.txt",
     "static/media/green-toy.JPG": "/static/media/green-toy.ee0c2839.JPG",
     "static/media/headshot.JPG": "/static/media/headshot.8d04c373.JPG",
@@ -60,7 +60,7 @@
   "entrypoints": [
     "static/js/runtime-main.654f44dc.js",
     "static/js/13.5c96b04f.chunk.js",
-    "static/css/main.a15845ac.chunk.css",
+    "static/css/main.024200df.chunk.css",
     "static/js/main.fb501fb5.chunk.js"
   ]
 }
