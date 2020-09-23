@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 //import Playing from '../images/playing.JPG';
+import PropTypes from 'prop-types';
 
 class PuppyBio extends Component {
   render() {
@@ -13,5 +14,10 @@ class PuppyBio extends Component {
     );
   }
 }
+
+PuppyBio.propTypes = {
+  image: PropTypes.string,
+  name: PropTypes.string
+};
 
 export default PuppyBio;
