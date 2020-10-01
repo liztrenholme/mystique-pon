@@ -44,10 +44,10 @@ class App extends Component {
     return (
       <div className="App">
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-          <a className="navbar-brand" id="home">
+          {/* <a className="navbar-brand" id="home">
             <h4>Enchanting PONs</h4>
             <h6>Polish Lowland Sheepdogs</h6>
-          </a>
+          </a> */}
           <button className="navbar-toggler"
             type="button"
             data-toggle="collapse"
