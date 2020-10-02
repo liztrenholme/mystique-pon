@@ -46,17 +46,24 @@ footer {
 	background-repeat: no-repeat;
   background-size: cover;
   background-image: url('./images/puppy1.JPG');
+  background-position-y: .2em;
   opacity: .7;
 }
 
 .main-title-box {
-  margin: 4em 6em;
+  margin: 2em 6em;
   color: #333;
-  font-family: 'Elsie', cursive;
   text-align: end;
+  white-space: nowrap;
 }
 .main-title {
+  font-family: 'Rouge Script', cursive;
   font-size: 4em;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .announcement, .links, .card {
@@ -105,15 +112,12 @@ footer {
   max-width: 700px;
   border: 2px solid #fff;
   border-radius: 20px;
-  border-radius: 20px;
   opacity: .9;
-  min-height: 20rem;
-  max-height: 22rem;
 }
 
 .lineup-row {
   /* background-color: #4A4A4B; */
-  width: 40em;
+  width: 30em;
   box-shadow: 1px 2px 10px 1px #777;
   padding: 1em;
   margin: .5em;
@@ -180,7 +184,6 @@ a:hover {
 }
 
 .display {
-  margin-top: 9%;
   align-items: center;
   height: auto;
   color: black;
@@ -195,7 +198,6 @@ a:hover {
 .carousel-inner {
   border: 10px solid #fff;
   border-radius: 20px;
-  margin: 2%;
 }
 
 .slider {
@@ -341,6 +343,16 @@ textarea:focus {
 
 /* Mobile view optimization */
 
+@media (max-width: 1134px) {
+  .lineup-row {
+    /* background-color: #4A4A4B; */
+    width: 20em;
+    /* box-shadow: 1px 2px 10px 1px #777; */
+    padding: .5em;
+    /* margin: .5em; */
+  }
+}
+
 @media (max-width: 767.98px) {
   .together, .welcome-msg, .welcome-blurb {
     min-height: auto;
@@ -351,7 +363,7 @@ textarea:focus {
     /* margin: 1% -1% 1% 1%;
   } */
   .display {
-    margin: 25% 1%;
+    margin: 8em .1em;
   }
   .slide {
     margin: 0 5%;
@@ -385,11 +397,22 @@ textarea:focus {
     min-height: 178px;
     max-height: 18em;
   }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .parallax-bg {
+    height: 40%;
+  }
+  .lineup-row {
+    width: 98%;
+    padding: .5em;
+  }
 }
 
 @media (min-width: 768px) {
   .display {
-    margin: 13% 1%;
+    margin: 7em .1em;
   }
   .puppy-bio-image {
     margin: 2%;
@@ -404,7 +427,7 @@ textarea:focus {
 
 @media (min-width: 1088px) {
   .display {
-    margin: 10% 1%;
+    margin: 7em .1em;
   }
   .picholder {
     background-color: #7C7C7D;
