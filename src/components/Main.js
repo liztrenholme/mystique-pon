@@ -15,6 +15,7 @@ class Main extends Component {
     const vidUrl = 'https://www.youtube.com/watch?v=KiHCIIXhr0c';
     return (
       <div className="Main">
+        <div className='parallax' />
         <div className="welcome">
           <div className="lineup-row">
             <div className='title-box'>
@@ -41,6 +42,7 @@ class Main extends Component {
               </div>
             </div>
           </div>
+          <div className='parallax-two' />
           <div className="container container-main">
             <div className='row'>
               <div className='col-md-12 video-player'>

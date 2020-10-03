@@ -111,24 +111,39 @@ nav {
 .parallax {
   background: url('./images/together.JPG');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-attachment: fixed;
+	background-position: center;
   opacity: .8;
-  background-color: #333333;
+  /* background-color: #333333; */
+  height: 110%;
+  /* width: 100%; */
+}
+
+.parallax-two {
+  background: url('./images/family.JPG');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+	background-position: center;
+  opacity: .8;
+  /* background-color: #333333; */
+  height: 100%;
+  padding-bottom: 5em;
+  /* width: 100%; */
 }
 
 .lineup-row {
-  background-color: #4A4A4B;
+  /* background-color: #4A4A4B; */
   width: 100%;
   margin: 0 !important;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 3em;
-  opacity: .9;
-  /* background: url('./images/together.JPG');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #333333; */
+  transform: translateY(-46em);
+  float: left;
+  height: 45em;
 }
 
 .welcome-card {
@@ -196,7 +211,7 @@ a:hover {
 }
 
 .display {
-  margin-top: 9%;
+  /* margin-top: 9%; */
   align-items: center;
   height: auto;
   color: black;
@@ -367,7 +382,7 @@ textarea:focus {
     /* margin: 1% -1% 1% 1%;
   } */
   .display {
-    margin: 25% 1%;
+    /* margin: 25% 1%; */
   }
   .slide {
     margin: 0 5%;
@@ -405,7 +420,7 @@ textarea:focus {
 
 @media (min-width: 768px) {
   .display {
-    margin: 13% 1%;
+    /* margin: 13% 1%; */
   }
   .puppy-bio-image {
     margin: 2%;
@@ -420,7 +435,7 @@ textarea:focus {
 
 @media (min-width: 1088px) {
   .display {
-    margin: 10% 1%;
+    /* margin: 10% 1%; */
   }
   .picholder {
     background-color: #7C7C7D;
