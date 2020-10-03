@@ -118,6 +118,8 @@ nav {
   /* background-color: #333333; */
   height: 110%;
   /* width: 100%; */
+  border-bottom: 30px solid white;
+
 }
 
 .parallax-two {
