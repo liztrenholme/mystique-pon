@@ -16,15 +16,18 @@ class Main extends Component {
     return (
       <div className="Main">
         <div className="welcome">
-          <div className="row lineup-row">
-            <div className="col-md-7">
+          <div className="lineup-row">
+            <div className='title-box'>
+              <h1 className='title-text'>Enchanting PONs</h1>
+              <h2 className='title-text-sub'>Polish Lowland Sheepdogs</h2>
+            </div>
+            <div className='welcome-card'>
               <div className="puppy-lineup fade">
                 <img className="together" src={MomAndPups} alt="mom and puppies together" />
               </div>
-            </div>
-            <div className="col-md-4 welcome-msg fade">
-              <h4>Welcome!</h4>
-              <p className="welcome-blurb">
+              <div className="welcome-msg fade">
+                <h4>Welcome!</h4>
+                <p className="welcome-blurb">
               After being involved with the PON breed for over eighteen years,
                 I have decided to start a breeding program here in Northeast Ohio.
                 My foundation bitch is Layla (3 years old), 
@@ -35,6 +38,7 @@ class Main extends Component {
                 I want them to ultimately be as much a member of the 
                 family as well as great champions. Please enjoy the
                 website, and watch for updates as we grow!</p>
+              </div>
             </div>
           </div>
           <div className="container container-main">

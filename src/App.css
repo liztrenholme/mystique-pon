@@ -16,6 +16,23 @@ footer {
   font-weight: bold;
 }
 
+.title-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+}
+
+.title-text {
+  color: #fff;
+  font-family: 'Rouge Script', cursive;
+  font-size: 5em;
+}
+
+.title-text-sub {
+  font-family: 'Varela Round', sans-serif;
+  color: #fff;
+}
+
 /* Navbar */
 
 nav {
@@ -52,9 +69,10 @@ nav {
 
 .welcome-msg {
   margin: .5em;
-  opacity: .9;
-  min-height: 15rem;
+  opacity: .7;
   max-height: 100%;
+  transform: translateX(-15em) translateY(1em) rotate(-6deg);
+  box-shadow: 2px 2px 15px #000;
 }
 
 .welcome-blurb {
@@ -81,19 +99,40 @@ nav {
 
 .together {
   width: 100%;
-  max-width: 700px;
+  /* max-width: 700px; */
   border: 2px solid #fff;
   border-radius: 20px;
   border-radius: 20px;
   opacity: .9;
-  min-height: 20rem;
-  max-height: 22rem;
+  transform: translateX(-1em) translateY(2em) rotate(20deg);
+  box-shadow: 5px 5px 5px #000;
+}
+
+.parallax {
+  background: url('./images/together.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .8;
+  background-color: #333333;
 }
 
 .lineup-row {
   background-color: #4A4A4B;
   width: 100%;
   margin: 0 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3em;
+  opacity: .9;
+  /* background: url('./images/together.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #333333; */
+}
+
+.welcome-card {
+  width: 30em;
 }
 
 .updates-blog {
