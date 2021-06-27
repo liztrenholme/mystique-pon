@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import '../App.css';
 
 class Contact extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="Contact">
@@ -11,10 +14,10 @@ class Contact extends Component {
               <div className="col-md-3">
               </div>
               <div className="col-md-6">
-              <h3 className="title">Ask a question</h3>
+                <h3 className="title">Ask a question</h3>
                 <p className="hear">Send us a general question or comment here.  If you are interested in one of our puppies, please fill out the application.</p>
                 <form action="https://formspree.io/isabellemajerus54@gmail.com" method="POST">
-                <label htmlFor="first_name">First Name</label>
+                  <label htmlFor="first_name">First Name</label>
                   <input className="text-input" required type="text" name="first_name" />
                   <label htmlFor="last_name">Last Name</label>
                   <input className="text-input" type="text" name="last_name" />
