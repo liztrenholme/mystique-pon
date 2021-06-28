@@ -38,7 +38,7 @@ class Application extends Component {
                 <label htmlFor="phone">Phone Number</label>
                 <input className="text-input" type="text" required name="phone" />
 
-                <p className="survey-question">Best time to contact:</p>
+                <p className="survey-question">Best time to contact: (Check all that apply.)</p>
                 <div className="input-pair">
                   <input className="select input-pair-checkbox" type="checkbox" name="best_time" value="mornings" />
                   <label htmlFor="best_time">Mornings</label>

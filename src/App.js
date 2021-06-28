@@ -65,9 +65,9 @@ class App extends Component {
               <p className="nav-item nav-link"
                 id="about"
                 onClick={this.handleClick.bind(this)}>About</p>
-              <p className="nav-item nav-link"
+              {/* <p className="nav-item nav-link"
                 id="puppies"
-                onClick={this.handleClick.bind(this)}>Puppies</p>
+                onClick={this.handleClick.bind(this)}>Puppies</p> */}
               <p className="nav-item nav-link"
                 id="gallery"
                 onClick={this.handleClick.bind(this)}>Gallery</p>
