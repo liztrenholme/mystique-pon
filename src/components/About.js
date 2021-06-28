@@ -3,6 +3,9 @@ import '../App.css';
 import GreenToy from '../images/green-toy.JPG';
 
 class About extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="About">
@@ -28,6 +31,7 @@ class About extends Component {
                     <li><a href="http://www.vetstreet.com/dogs/polish-lowland-sheepdog">VetStreet</a></li>
                     <li><a href="https://www.akc.org/dog-breeds/polish-lowland-sheepdog/">American Kennel Club</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/Polish_Lowland_Sheepdog">Wikipedia entry on PONs</a></li>
+                    <li><a href="http://www.members.tripod.com/~pon34/aboutpons.html">All About PONs</a></li>
                   </ul>
                 </div>
                 <div className="col-md-2">
