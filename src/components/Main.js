@@ -60,7 +60,7 @@ class Main extends Component {
                 <div className="announcement">
                   <div className="announce-msg">
                     <h1>Coming soon!</h1>
-                    <h4>{'Puppies expected in mid-August.'}</h4>
+                    <h4>{'Puppies expected in mid-August 2021.'}</h4>
                   </div>
                   <div>
                   </div>
