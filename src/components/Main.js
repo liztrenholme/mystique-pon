@@ -59,8 +59,10 @@ class Main extends Component {
               <div>
                 <div className="announcement">
                   <div className="announce-msg">
-                    <h1>Coming soon!</h1>
-                    <h4>{'Puppies expected in mid-August 2021.'}</h4>
+                    <h1>Announcing...</h1>
+                    <p className='announcement-text'>{`We are pleased to announce the birth of Dinky's and Layla's puppies born August 16, 2021!
+                    Descending from a long line of AKC champions, the puppies' parents have been tested for PRA,
+                    hip dysplasia, CERF and are CHIC certified.`}</p>
                   </div>
                   <div>
                   </div>
@@ -102,19 +104,7 @@ class Main extends Component {
                 <img src={Pumpkin} className="puppy-pumpkin" alt="puppy with pumpkins" />
               </div>
             </div> */}
-            <div>
-              <div className="announcement">
-                <div className="announce-msg">
-                  <h4>Announcing...</h4>
-                  <p>{`We are pleased to announce the birth of Simon and Layla's puppies born August 8, 2018!
-                    Descending from a long line of AKC champions, the puppies' parents have been tested for PRA,
-                    hip dysplasia, CERF and are CHIC certified.`}</p>
-                </div>
-                <div>
-                </div>
-              </div>
-            </div>
-            <div className="row">
+            {/* <div className="row">
               <div>
                 <div className="card">
                   <img className="card-img-top announce-pic" src={Simon} alt="simon" />
@@ -133,7 +123,7 @@ class Main extends Component {
               </div>
               <div className="col-md-1">
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <div className="col-md-1">
