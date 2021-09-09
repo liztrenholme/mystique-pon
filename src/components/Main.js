@@ -60,7 +60,7 @@ class Main extends Component {
                 <div className="announcement">
                   <div className="announce-msg">
                     <h1>Announcing...</h1>
-                    <p className='announcement-text'>{`We are pleased to announce the birth of Dinky's and Layla's puppies born August 16, 2021!
+                    <p className='announcement-text'>{`Two boys and one girl!! We are pleased to announce the birth of Dinky's and Layla's puppies, born August 16, 2021!
                     Descending from a long line of AKC champions, the puppies' parents have been tested for PRA,
                     hip dysplasia, CERF and are CHIC certified.`}</p>
                   </div>
