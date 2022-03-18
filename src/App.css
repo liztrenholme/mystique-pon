@@ -65,6 +65,10 @@ footer {
   font-size: 4em;
 }
 
+/* .intro-box {
+  width: 20%;
+} */
+
 .content-container {
   display: flex;
   flex-direction: row;

@@ -5,11 +5,13 @@ import '../App.css';
 // import Pumpkin2 from '../images/pumpkin2.JPEG';
 // import Pumpkin3 from '../images/pumpkin3.JPEG';
 // import Pumpkin4 from '../images/pumpkin4.JPEG';
-import Simon from '../images/simon.JPG';
-import Layla from '../images/headshot.JPG';
+// import Simon from '../images/simon.JPG';
+// import Layla from '../images/headshot.JPG';
 import MomAndPups from '../images/together-nature.png';
-import SireDinky from '../images/IMG_7065.JPG';
-import DamLayla from '../images/IMG_7188.jpeg';
+// import SireDinky from '../images/IMG_7065.JPG';
+// import DamLayla from '../images/IMG_7188.jpeg';
+import DamBella from '../images/BellaRamp.jpg';
+import SireMilosz from '../images/MiloszHead.jpg';
 // import PuppyBackground from '../images/puppy1.JPG';
 import ReactPlayer from 'react-player';
 
@@ -31,7 +33,7 @@ class Main extends Component {
         {/* <div className="welcome"> */}
         {/* <div className="row lineup-row"> */}
         <div className='content-container'>
-          <div>
+          <div className="intro-box">
             <div className='lineup-row'>
               <div className="puppy-lineup fade">
                 <img className="together" src={MomAndPups} alt="mom and puppies together" />
@@ -59,6 +61,52 @@ class Main extends Component {
               <div>
                 <div className="announcement">
                   <div className="announce-msg">
+                    <h1>Expecting...</h1>
+                    <p className='announcement-text'>{`We are pleased to announce that we are expecting puppies around April 15, 2022!  These
+                    puppies will be ready to go to their homes in June. Descending from a long line of AKC champions, the puppies' parents have been tested for PRA,
+                    hip dysplasia, CERF and are CHIC certified through the OFA.`}</p>
+                  </div>
+                  <div>
+                  </div>
+                </div>
+              </div>
+              <div className="row card-row">
+                <div className="card">
+                  <h3 style={{padding: '0.5em'}} className="card-text">{'Sire: GCHS Just Hajko Agrest "Milosz"'}</h3>
+                  <img className="card-img-top announce-pic" src={SireMilosz} alt="simon" />
+                  <div className="card-body">
+                    <h5>Awards: </h5>
+                    <ul>
+                      <li>2021 APONC National and Regional Specialty Winner</li>
+                      <li>2021 AKC Championship Best of Opposite Sex</li>
+                      <li>Number 1 PON 2019 + 2020</li>
+                      <li>Multiple Group Placing</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="card">
+                  <h3 style={{padding: '0.5em'}} className="card-text">{'Dam: Echantingpon Charming Belle and the Beast "Bella"'}</h3>
+                  <img className="card-img-top announce-pic" src={DamBella} alt="layla" />
+                  <div className="card-body">
+                    <h5>Awards: </h5>
+                    <ul>
+                      <li>2021 APONC Regional Specialty Best of Oppposite Sex</li>
+                      <li>2020 + 2021 Best of Opposite Sex Westminster</li>
+                      <li>Number 4 PON 2021 All Breed PON</li>
+                      <li>Number 2 2021 Breed PON</li>
+                      <li>Number 3 2020 Breed PON</li>
+                      <li>Number 1 2021 and 2020 Owner Handled</li>
+                      <li>Number 3 2019 Owner Handled</li>
+                      <li>Multiple Group Placing</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <div className="coming-soon">
+              <div>
+                <div className="announcement">
+                  <div className="announce-msg">
                     <h1>Announcing...</h1>
                     <p className='announcement-text'>{`Two boys and one girl!! We are pleased to announce the birth of Dinky's and Layla's puppies, born August 16, 2021!
                     Descending from a long line of AKC champions, the puppies' parents have been tested for PRA,
@@ -82,7 +130,7 @@ class Main extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className='col-md-12 video-player'>
               <ReactPlayer 
                 className='react-player'
