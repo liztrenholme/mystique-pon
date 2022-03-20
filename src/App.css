@@ -112,20 +112,35 @@ footer {
 }
 
 .card {
-  width: 18rem;
+  /* width: 18rem; */
   border-radius: 20px;
   margin-right: auto;
   margin-left: auto;
   /* clear: both; */
 }
 
+.card-img-top {
+  width: 20em !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .card-row {
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
+  display: grid;
+  grid-template-columns: 50% 50%;
   text-align: center;
   align-content: center;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (max-width: 991px) {
+  .card-row {
+      display: flex;
+      flex-direction: column;
+  }
 }
 
 .announce-pic {
@@ -413,6 +428,22 @@ textarea:focus {
     background-color: #7C7C7D;
     min-height: 478px;
     max-height: 18em;
+  }
+}
+
+@media (max-width: 1300px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .lineup-row {
+    width: 100%;
+    box-shadow: none;
+  }
+  
+  .welcome-blurb {
+    font-size: 1.3em;
+    min-height: 5em;
   }
 }
 

@@ -79,7 +79,7 @@ class Main extends Component {
                   </div>
                 </div>
               </div>
-              <div className="row card-row">
+              <div className="card-row">
                 <div className="card">
                   <h3 style={{padding: '0.5em'}} className="card-text">{'Sire: GCHS Just Hajko Agrest "Milosz"'}</h3>
                   <img className="card-img-top announce-pic" src={SireMilosz} alt="simon" />
