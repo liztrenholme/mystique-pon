@@ -1,3 +1,12 @@
+// todo: 
+// - add in pictures
+// - fix youtube video
+// - better formatting for layout of cards
+// - fix intro box- too intrusive!
+// - carousel for pictures moible friendly?
+// - add pictures to gallery
+
+
 import React, { Component } from 'react';
 import '../App.css';
 // import Pumpkin from '../images/pumpkin.JPEG';
@@ -85,7 +94,7 @@ class Main extends Component {
                   </div>
                 </div>
                 <div className="card">
-                  <h3 style={{padding: '0.5em'}} className="card-text">{'Dam: Echantingpon Charming Belle and the Beast "Bella"'}</h3>
+                  <h3 style={{padding: '0.5em'}} className="card-text">{'Dam: GCHS Echantingpon Charming Belle and the Beast CGC "Bella"'}</h3>
                   <img className="card-img-top announce-pic" src={DamBella} alt="layla" />
                   <div className="card-body">
                     <h5>Awards: </h5>
